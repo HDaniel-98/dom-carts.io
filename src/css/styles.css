@@ -28,6 +28,7 @@
     color: #fff;
     padding: 10px;
     font-size: 20px;
+    display: none;
   }
   
   /* producto*/
@@ -73,11 +74,9 @@
     display: flex;
     flex-direction: column;
     margin-top: -20px;
-    display: none;
+    
   }
-  .select-color{
-    display: none;
-  }
+ 
 
   .product-image img {
     width: 28rem;
@@ -95,7 +94,7 @@
     width: 70%;
     justify-content: space-between;
     margin-top: -15px;
-    display: none;
+   
   }
   
   .colors {
@@ -148,6 +147,7 @@
     bottom: 10%;
     left: 28%;
     border: none;
+    display: none;
   }
 
   button {
@@ -159,7 +159,7 @@
     padding: 10px 25px;
     border: none;
     border-radius: 5px;
-    display: none;
+    
   }
   
   button white-button {
@@ -168,7 +168,7 @@
   }
   
   .button-text {
-    display: none;
+   
     color: #fff;
     margin-left: 5px;
   }
